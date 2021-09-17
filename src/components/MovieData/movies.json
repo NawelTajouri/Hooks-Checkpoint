@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Ex Machina",
+        "description": "1977",
+        "rating": 5,
+        "poster":
+            "https://i.pinimg.com/originals/33/37/12/33371215f8d21b24135836822983327e.jpg"
+        
+        },
+    {
+        "title": "The Phantom Menace",
+        "description": "1977",
+        "rating": 1,
+        "poster":
+        "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+        
+    },
+    {
+        "title": "The Imitation Game",
+        "description": "1977",
+        "rating": 3,
+        "poster":
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBl_R-kxmoostb8VKWx_zMricQ7hyEgwdDjxp5JXD3qMizebsMGq-TubC43sGbGw3KXZY&usqp=CAU"
+           
+        },
+    {
+        "title": "Star Wars",
+        "description": "1977",
+        "rating": 2,
+        "poster":
+         "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+         
+        },
+      {
+        "title": "Terminator",
+        "description": "1977",
+        "rating": 4,
+        "poster":
+         "https://i.pinimg.com/originals/10/b2/7f/10b27fc133f7eb3a8c1751d92fd9054d.jpg"
+         
+        },
+        {
+            "title": "I Robot",
+            "description": "1977",
+            "rating": 1,
+            "poster":
+            "https://i.pinimg.com/originals/c2/41/22/c241223577e1a06e9d49c7a0cb020fb0.jpg"
+            
+        },
+        {
+            "title": "Interstellar",
+            "description": "1977",
+            "rating": 2,
+            "poster":
+            "https://cdn.shopify.com/s/files/1/1416/8662/products/interstellar_2014_french_advance_original_film_art_1200x.jpg?v=1611880069"
+           
+        },
+        {
+            "title": "The Matrix",
+            "description": "1977",
+            "rating": 3.5,
+            "poster":
+            "https://c8.alamy.com/comp/BR64RH/joe-pantoliano-laurence-fishburne-keanu-reeves-carrie-anne-moss-poster-BR64RH.jpg"
+            
+        }
+]

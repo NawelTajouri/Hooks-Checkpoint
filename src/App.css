@@ -1,0 +1,22 @@
+.App .Search-Add{
+    background-image: url('https://thumbs.gfycat.com/AffectionateInfiniteGuernseycow-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+/* .App .Search-Add .To-search{
+    border: 2px solid white;
+    border-style: dashed ;
+    margin-left: 100px;
+    margin-right: 100px;
+
+} */
+.App .My-Movies{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
