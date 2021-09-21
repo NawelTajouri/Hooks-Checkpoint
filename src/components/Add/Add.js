@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import StarRatingComponent from "react-star-rating-component";
 import './Add.css';
+import { Link} from "react-router-dom";
 
 const customStyles = {
   content: {
@@ -50,8 +51,6 @@ function Add({ submitMovies }) {
     
         setAddMovie({...addMovie,rating:newrate})
   };
-  
-
   return (
     <div className="add-movie">
       <div className="heading">
@@ -60,9 +59,11 @@ function Add({ submitMovies }) {
 
       <div className="modal-movie">
       <Modal isOpen={modalIsOpen} style={customStyles}>
+        
         <label>Title</label>
         <br />
-        <input
+        <input 
+          required
           type="text"
           name="title"
           placeholder="title"
@@ -84,7 +85,7 @@ function Add({ submitMovies }) {
         <br />
         <label>Description</label>
         <br />
-        <textarea
+        <textarea 
           name="description"
           placeholder="description"
           defaultValue={addMovie.description}
@@ -103,19 +104,25 @@ function Add({ submitMovies }) {
           size={24}
           activeColor="#ffd700"
         />
-    
-        <button
+        
+    <Link to="/"  ><button type="submit"
           onClick={() => {
+            
+
             submitMovies(addMovie);
             setAddMovie({ title: "", description: "", rating: "", poster: "" });
             {
               setModalIsOpenToFalse();
             }
+            
+
           }}
         >
           Add
-        </button>
-        <button onClick={closeModal}>close</button>
+        </button></Link>
+        
+        <Link to="/"  > <button onClick={closeModal}>close</button></Link>
+       
       </Modal>
       </div>
       

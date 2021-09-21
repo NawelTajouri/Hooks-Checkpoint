@@ -1,6 +1,7 @@
 import React from "react";
 import StarRatings from "react-star-ratings";
 import './Cards.css';
+import { Link } from "react-router-dom";
 
 export const Cards = ({
   el: { title, description, rating, poster},
@@ -32,6 +33,9 @@ export const Cards = ({
             <div className="card-foorter">
               {rating}
             </div>
+            <button variant="primary">
+            <Link to={`/movie/${title}`}>Go</Link>
+          </button>
           </div>
         </div>
       </div>

@@ -6,6 +6,8 @@ import FiberNewIcon from "@material-ui/icons/FiberNew";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import Avatar from "@material-ui/core/Avatar";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
+import { Link} from "react-router-dom";
+
 import im from "./cv.jpg";
 
 function Header() {
@@ -34,7 +36,8 @@ function Header() {
           <div className="Choice">
           <h5>
             <FiberNewIcon />
-            New Movies
+            
+            <Link to="/add"  >New Movies</Link>
           </h5>
           </div>
           <div className="Choice">
